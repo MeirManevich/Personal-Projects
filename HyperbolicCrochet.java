@@ -1,3 +1,8 @@
+//This is a fun little project to calculate
+//the exponantially increasing number of stitches
+//in a hyperbolic crochet project
+//where in each row, you add increases at a constant ratio
+
 import java.util.Scanner;
 import java.util.HashMap;
 
@@ -16,7 +21,7 @@ public class HyperbolicCrochet {
             e.printStackTrace();
         }
     }
-    //more fun with sleep to convince the user that 
+    //more fun with sleep() to convince the user that 
     //the computer is really crunching those numbers
     public static void animatedElipses(int delayMilli){
         for (int i = 0; i < 4; i++){
