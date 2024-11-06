@@ -86,50 +86,7 @@ public class Main {
                 }
 
             }
-            /*try{
-
-                if (next[0].equals("WEST") || next[0].equals("W")){
-                    oop.setLocation(kitchen);
-                    oop.getlocation();
-                }
-                //conditions for the kitchen
-                
-                if (next[0].equals("TAKE")){
-                    print("What do you want to take?");
-                }
-                    if (next[0].equals(beet.name)){
-                        oop.addItem(beet);
-                        print("Taken.");
-                    }
-                    else if(next[0].equals("KNIFE")){
-                        oop.addItem(kitchen_knife);
-                        print("Taken.");
-                    }
-                else if(next[0].equals("DROP")){
-                    print("What do you want to drop?");
-                    if(next[0].equals(beet.name)){
-                        oop.dropItem(beet);
-                    }
-                }
-                else if(next[0].equals("WEIGHT")){
-                    print(oop.getWeight());
-                }
-                    
-                    
-                else if (next[0].equals("I") || next[0].equals("INVENTORY")) {
-                    oop.getInvetory();
-                }
-                else if (next[0].equals("QUIT") || next[0].equals("STOP")){
-                    break;
-                }
-                else{
-                    print("Sorry, I did not understand that");
-                }
-            //} catch (Exception e){
-                //print("exception");
-                //continue;
-            //}
-            */
+           
             Arrays.fill(next, "");
             
         }
