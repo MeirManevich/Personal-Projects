@@ -1,2 +1,2 @@
 # Personal-Projects
-My own programming projects I working on
+My own programming projects I am working on
